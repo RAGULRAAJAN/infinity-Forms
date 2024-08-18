@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body align="center" >
+    <table width="100%" height="100%" border="0" cellpadding="60" cellspacing="0">
+        <tr>
+            <td align="center" valign="center">
+                <table border="0" cellpadding="60" cellspacing="5" id="back" width="50%" height="70%">
+                    <tr>
+                        <td>
+                            <h2><font color="white">Registration Form</font></h2>
+                            <form action="/submit-registration" method="post">
+                                <label for="username"><font color="white">Username:</font></label><br>
+                                <input type="text" id="username" name="username" required><br><br>
+
+                                <label for="password"><font color="white">Password:</font></label><br>
+                                <input type="password" id="password" name="password" required><br><br>
+
+                                <label for="email"><font color="white">Email:</font></label><br>
+                                <input type="email" id="email" name="email" required><br><br>
+
+                                <input type="submit" value="Register">
+                            </form>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
