@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket Booking Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body align="center">
+    <table width="100%" height="100%" border="0" cellpadding="60" cellspacing="0">
+        <tr>
+            <td align="center" valign="middle">
+                <table border="0" cellpadding="30" cellspacing="20" id="back" width="40%">
+                    <tr>
+                        <td>
+                            <h2><font color="white">Ticket Booking Form</font></h2>
+                            <br>
+                            <form action="/submit-ticket-booking" method="post">
+                                <label for="name"><font color="white">Name:</font></label><br>
+                                <input type="text" id="name" name="name" required><br><br>
+
+                                <label for="email"><font color="white">Email:</font></label><br>
+                                <input type="email" id="email" name="email" required><br><br>
+
+                                <label for="ticket-type"><font color="white">Ticket Type:</font></label><br>
+                                <select id="ticket-type" name="ticket-type" required>
+                                    <option value="movie">Movie</option>
+                                    <option value="train">Train</option>
+                                    <option value="room">Room</option>
+                                    <option value="flight">Flight</option>
+                                    <option value="bus">Bus</option>
+                                </select><br><br>
+
+                                <label for="date"><font color="white">Date:</font></label><br>
+                                <input type="date" id="date" name="date" required><br><br>
+
+                                <input type="submit" value="Book Ticket">
+                            </form>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
