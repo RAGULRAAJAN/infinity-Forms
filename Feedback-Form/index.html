@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body align="center">
+    <table width="100%" height="100%" border="0" cellpadding="100" cellspacing="0">
+        <tr>
+            <td align="center" valign="middle">
+                <table border="0" cellpadding="40" cellspacing="20" id="back" width="40%">
+                    <tr>
+                        <td>
+                            <h2><font color="white">Feedback Form</font></h2>
+                            <form action="/submit-feedback" method="post">
+                                <label for="name"><font color="white">Name:</font></label><br>
+                                <input type="text" id="name" name="name" required><br><br>
+
+                                <label for="email"><font color="white">Email:</font></label><br>
+                                <input type="email" id="email" name="email" required><br><br>
+
+                                <label for="feedback"><font color="white">Feedback:</font></label><br>
+                                <textarea id="feedback" name="feedback" rows="4" cols="50" required></textarea><br><br>
+
+                                <input type="submit" value="Submit Feedback">
+                            </form>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
