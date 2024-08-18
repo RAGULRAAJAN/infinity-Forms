@@ -1,0 +1,18 @@
+body {
+    height: 100%;
+    /* The image used */
+    background-image: url(images/pic.png);
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  table #back
+  {
+    background-image: url(images/pic2.png);
+    background-blend-mode: darken;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
